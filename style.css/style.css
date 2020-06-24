@@ -45,7 +45,8 @@ img{
     width: 100%;
     display: block;
     height: 17rem;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 h1,h2,h3{
     text-transform: capitalize;
@@ -352,7 +353,8 @@ Tiles
     }
     .tiles img{
         height: 100%;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
     .tile-1{
         grid-area: a;
@@ -479,8 +481,7 @@ layout
         grid-template-rows: [start] auto [col-1-end] 1fr [col-2-end] auto [end];
     }
     .header{
-         /* padding-bottom: 2rem;
-        padding-top: 0.5rem ;  */
+         
         font-size: 3rem;
         grid-column: start/end;
         grid-row: start/row-1-end;
@@ -499,12 +500,7 @@ layout
       grid-column: col-2-end/end;
       grid-row: row-1-end/row-2-end;
   }  
-   .footer{
-      
-    grid-column: start/end;
-     grid-row: row-2-end/end;
-     background: #a1040f;
-  }    
+    
   .navbar-layout ul{
       grid-template-columns: 1fr;
       align-items: center;
@@ -527,10 +523,10 @@ layout
   .btn:hover{
       background:white;
       color: black;
-  }
+  } */
   .footer span i{
       color: black;
-  }
+  } 
 }
  
  
