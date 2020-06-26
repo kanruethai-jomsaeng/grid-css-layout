@@ -1,5 +1,3 @@
-/*  font-family: 'Fira Code', monospace;
-} */
 
 /* 
 *****************************************
@@ -45,8 +43,7 @@ img{
     width: 100%;
     display: block;
     height: 17rem;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 h1,h2,h3{
     text-transform: capitalize;
@@ -353,8 +350,7 @@ Tiles
     }
     .tiles img{
         height: 100%;
-        -o-object-fit: cover;
-           object-fit: cover;
+        object-fit: cover;
     }
     .tile-1{
         grid-area: a;
@@ -500,7 +496,12 @@ layout
       grid-column: col-2-end/end;
       grid-row: row-1-end/row-2-end;
   }  
-    
+   /* .footer{
+      
+    grid-column: start/end;
+     grid-row: row-2-end/end;
+     background: #a1040f;
+  }     */
   .navbar-layout ul{
       grid-template-columns: 1fr;
       align-items: center;
@@ -513,7 +514,7 @@ layout
       min-height: 100%;
       background: #8f8f8f;
   }
-   .btn{
+   /* .btn{
      max-width: 300px;
      height: auto;
       align-items: center;
@@ -524,9 +525,9 @@ layout
       background:white;
       color: black;
   } */
-  .footer span i{
+  /* .footer span i{
       color: black;
-  } 
+  } */
 }
  
  
